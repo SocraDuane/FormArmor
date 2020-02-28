@@ -26,7 +26,6 @@ class Accueil extends CI_Controller {
 		$this->load->view('header.php');
 		$this->load->view('v_presentation.php');
 		$this->load->view('footer.php');
-		//Deuxieme version
 	}
 }
 
