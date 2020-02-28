@@ -20,12 +20,13 @@ class Accueil extends CI_Controller {
 	 */
 	public function index()
 	{
-		// pour charger le helper url donnant entre autre le chemin par défaut de l'application : fonction base_url() 
+		// pour charger le helper url donnant entre autre le chemin par dï¿½faut de l'application : fonction base_url() 
 		$this->load->helper('url');
 		$this->load->helper('assets_helper.php');
 		$this->load->view('header.php');
 		$this->load->view('v_presentation.php');
 		$this->load->view('footer.php');
+		//Deuxieme version
 	}
 }
 
